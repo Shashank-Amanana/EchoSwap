@@ -1,0 +1,76 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.my-listings .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 25rem);
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.my-listings .box-container .box {
+  text-align: justify;
+  background-color: #ddd;
+  padding: 2rem;
+  overflow-x: hidden;
+}
+
+.my-listings .box-container .box .thumb {
+  position: relative;
+  height: 20rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-listings .box-container .box .thumb img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.my-listings .box-container .box .thumb p {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  font-size: 1.7rem;
+}
+
+.my-listings .box-container .box .thumb p i {
+  margin-right: 0.7rem;
+}
+
+.my-listings .box-container .box .price {
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.my-listings .box-container .box .price i {
+  margin-right: 1rem;
+}
+
+.my-listings .box-container .box .name {
+  font-size: 2rem;
+  color: var(--black);
+  line-height: 1.5;
+  padding: 0.5rem 0;
+  text-overflow: ellipsis;
+}
+
+.my-listings .box-container .box .location {
+  padding-bottom: 0.5rem;
+  font-size: 1.7rem;
+  color: var(--light-color);
+}
+
+.my-listings .box-container .box .location i {
+  margin-right: 1rem;
+  color: var(--main-color);
+}
+
+

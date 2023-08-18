@@ -1,0 +1,26 @@
+body {
+    background-size: cover;
+}
+
+form {
+    width: 50%;
+    background-color: white;
+    margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+@media screen and (max-width:700px) {
+    form {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     body {
+        background-image: url("../images/bg-home.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

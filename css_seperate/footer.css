@@ -1,0 +1,258 @@
+/* body {
+  color: #d1d5db;
+} */
+.footer-main {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+
+  @media (min-width: 640px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.footer-links {
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: white;
+
+  :hover {
+    color: #111827;
+  }
+}
+
+.footer-subsections {
+  @media (min-width: 640px) {
+    grid-column: span 6 / span 6;
+  }
+  @media (min-width: 768px) {
+    grid-column: span 3 / span 3;
+  }
+  @media (min-width: 1024px) {
+    grid-column: span 2 / span 2;
+  }
+}
+
+.footer-subheadings {
+  margin-bottom: 0.5rem;
+  color: Black;
+  font-weight: 700;
+}
+
+.footer-subscribe {
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.subscribe-sec {
+  @media (min-width: 640px) {
+    grid-column: span 6 / span 6;
+  }
+  @media (min-width: 768px) {
+    grid-column: span 3 / span 3;
+  }
+  @media (min-width: 1024px) {
+    grid-column: span 3 / span 3;
+  }
+}
+
+.footer-media {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top-width: 1px;
+  border-color: #e5e7eb;
+
+  @media (min-width: 768px) {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.footer-media-list {
+  display: flex;
+  margin-bottom: 1rem;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+    margin-left: 1rem;
+    order: 1;
+  }
+}
+
+.media-label {
+  display: flex;
+  background-color: #ffffff;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: #4b5563;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+  :hover {
+    color: #111827;
+  }
+}
+.footer-email {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+.footer-echo {
+  color: black;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 900;
+  line-height: 1;
+  user-select: none;
+}
+
+.footer-grid {
+  display: grid;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top-width: 1px;
+  border-color: #e5e7eb;
+  gap: 2rem;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+  @media (min-width: 768px) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.footer-set {
+  @media (min-width: 640px) {
+    grid-column: span 12 / span 12;
+  }
+
+  @media (min-width: 1024px) {
+    grid-column: span 3 / span 3;
+  }
+}
+.footer-echo-link {
+  display: flex;
+  color: #111827;
+  font-weight: 500;
+  order: -9999;
+
+  @media (min-width: 1024px) {
+    order: 0;
+    width: auto;
+  }
+}
+.email-label {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  /* whitespace: nowrap;
+  borderwidth: 0; */
+}
+
+.email-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  max-width: 20rem;
+  color: black;
+}
+
+.email-input {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-right: 3rem;
+  color: #1f2937;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 100%;
+}
+
+.email-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  left: auto;
+}
+
+.email-svg {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  color: #000000;
+  flex-shrink: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: currentColor;
+}
+
+.footer-subheadline {
+  color: white;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.email-span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: -1px;
+  background-color: #d1d5db;
+  width: 1px;
+}
+#description {
+  height: 80px;
+  color: black;
+  width: 280px;
+}
+.media-svg {
+  width: 2rem;
+  height: 2rem;
+  fill: currentColor;
+}
+.copywrite {
+  margin-right: 1rem;
+  color: #4b5563;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+#Footer {
+  background-color: rgb(59, 58, 58);
+  color: rgb(255, 255, 255);
+}
+#email {
+  height: 30px;
+  width: 250px;
+  border-radius: 4px;
+}
