@@ -2,12 +2,12 @@
 
 https://drive.google.com/file/d/1jq3CXfbc4Z3eE9k0gspVVMjmVOeQqYb6/view?usp=sharing
 
-# EchoConnect
+# EchoSwap/EchoConnect
 
-EchoConnect is project that aims to change the way we trade and consume by creating a sustainable goods marketplace. Finding eco-friendly products and promoting responsible consumption can be difficult in today's world. EchoConnect solves this problem by creating a platform where people can easily connect, buy, and sell sustainable goods.
+EchoSwap/EchoConnect is project that aims to change the way we trade and consume by creating a sustainable goods marketplace. Finding eco-friendly products and promoting responsible consumption can be difficult in today's world. EchoSwap/EchoConnect solves this problem by creating a platform where people can easily connect, buy, and sell sustainable goods.
 Our web application, provides users with a user-friendly and convenient search interface. Users can easily browse through their product options thanks to a comprehensive database and search functionality.
-EchoConnect is a platform that promotes responsible consumption and sustainable practises in addition to facilitating trade. We encourage the growth of the green economy and foster a community dedicated to making a positive impact on the environment by connecting buyers and sellers of eco-friendly products.
-EchoConnect is built with a solid technology stack that includes HTML, CSS, and JavaScript for the frontend and PHP for the backend. MySql is used to manage the database, ensuring efficient data storage and retrieval.
+EchoSwap/EchoConnect is a platform that promotes responsible consumption and sustainable practises in addition to facilitating trade. We encourage the growth of the green economy and foster a community dedicated to making a positive impact on the environment by connecting buyers and sellers of eco-friendly products.
+EchoSwap/EchoConnect is built with a solid technology stack that includes HTML, CSS, and JavaScript for the frontend and PHP for the backend. MySql is used to manage the database, ensuring efficient data storage and retrieval.
 
 
 ## Web Implementation
@@ -47,16 +47,16 @@ Mobile-Friendly Interface: Develop a responsive design that allows users to acce
 
 ## The Website
 
-In our project, EchoConnect: a sustainable goods marketplace, we have implemented various features to create a user-friendly platform for buying and selling sustainable goods. The following components and functionalities were developed to make the website fully functional:
+In our project, EchoSwap/EchoConnect: a sustainable goods marketplace, we have implemented various features to create a user-friendly platform for buying and selling sustainable goods. The following components and functionalities were developed to make the website fully functional:
 
 ### User/Admin Registration page: 
-Users/admin can register on the EchoConnect website by providing their email address, phone number, name, and password. The registration page, coded in HTML and CSS, allows new users to create an account and provides a hyperlink to the login page.
+Users/admin can register on the EchoSwap/EchoConnect website by providing their email address, phone number, name, and password. The registration page, coded in HTML and CSS, allows new users to create an account and provides a hyperlink to the login page.
 
 ### User/Admin Login page: 
 Registered users/admins can log into their accounts using their email and password credentials. The login page, created using HTML and CSS, provides access to the user's personalized dashboard.
 
 ### User Dashboard: 
-The user dashboard serves as the main interface for users to manage their activities on EchoConnect. It consists a section: "Product Listings". The "Product Listings" section allows users to view their goods relevant details such as product type, description, and address. The dashboard is developed using HTML, CSS, and JavaScript, with separate files for each section.
+The user dashboard serves as the main interface for users to manage their activities on EchoSwap/EchoConnect. It consists a section: "Product Listings". The "Product Listings" section allows users to view their goods relevant details such as product type, description, and address. The dashboard is developed using HTML, CSS, and JavaScript, with separate files for each section.
 
 ### Product Catalogue:
 The website displays approved products in an intuitive manner, categorized by type. Users can browse and search for products using filters and view real-time availability information. On clicking on a product user can chat with the seller. The "chat" section provides a direct communication channel for buyers and sellers to interact and coordinate.  The catalog page is designed using HTML, CSS, and JavaScript, with dynamic elements for displaying product information.
@@ -65,7 +65,7 @@ The website displays approved products in an intuitive manner, categorized by ty
 An admin portal is implemented to manage products and user profiles. Admins have the ability to review and verify posted products against established guidelines. The admin panel, coded in HTML, CSS, and JavaScript, provides a section for pending product requests, where admins can accept or reject products for listing on the website.
 
 ### Sustainability Resources:
-EchoConnect includes a dedicated section on the homepage that offers valuable educational resources, such as web links, blogs, videos, and FAQs related to sustainability. This section is developed using HTML, CSS, and JavaScript, providing users with guidance on adopting sustainable practices.
+EchoSwap/EchoConnect includes a dedicated section on the homepage that offers valuable educational resources, such as web links, blogs, videos, and FAQs related to sustainability. This section is developed using HTML, CSS, and JavaScript, providing users with guidance on adopting sustainable practices.
 
 ### Database Management:
 A MySQL database is created to store user information, product details, and verification statuses. The database is managed using SQL queries and accessed through PHP. The configuration file, "config.php," allows for easy connection to the database.
